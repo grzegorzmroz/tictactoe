@@ -127,7 +127,7 @@ namespace tictactoe_v3
             if (similardiag == BoardSize - 1)
             {
                 winner = true;
-                for (int i = 0; i < BoardSize - 1; i++)
+                for (int i = 0; i < BoardSize; i++)
                 {
                     buttons[i][i].BackColor = Color.Green;
                 }
